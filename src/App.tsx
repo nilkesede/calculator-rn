@@ -1,18 +1,12 @@
 import React from 'react'
 import {SafeAreaView} from 'react-native'
-import styled from 'styled-components/native'
 
-const Title = styled.Text`
-  font-size: 25px;
-  text-align: center;
-`
+import {Display} from './components'
 
-const App = () => {
+export default function App() {
   return (
     <SafeAreaView>
-      <Title>Hello world!</Title>
+      <Display value={'123.456'} />
     </SafeAreaView>
   )
 }
-
-export default App

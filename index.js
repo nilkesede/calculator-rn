@@ -1,6 +1,8 @@
-import {AppRegistry} from 'react-native'
+import './storybook'
 
-import App from './src/App'
-import {name as appName} from './app.json'
+// - import {AppRegistry} from 'react-native'
 
-AppRegistry.registerComponent(appName, () => App)
+// - import App from './src/App'
+// import {name as appName} from './app.json'
+
+// AppRegistry.registerComponent(appName, () => App)
