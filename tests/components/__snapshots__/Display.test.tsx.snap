@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#303030",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <Text
+    adjustsFontSizeToFit={true}
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontSize": 100,
+          "fontWeight": "100",
+          "textAlign": "right",
+        },
+      ]
+    }
+  >
+    123.456
+  </Text>
+</View>
+`;
