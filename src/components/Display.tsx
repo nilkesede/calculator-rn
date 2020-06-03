@@ -4,6 +4,7 @@ import styled from 'styled-components/native'
 const Wrapper = styled.View`
   background-color: #303030;
   flex: 1;
+  justify-content: flex-end;
 `
 
 const Text = styled.Text`

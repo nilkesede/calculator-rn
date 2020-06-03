@@ -1,12 +1,21 @@
 import React from 'react'
-import {SafeAreaView} from 'react-native'
+import {StatusBar} from 'react-native'
+import styled from 'styled-components/native'
 
-import {Display} from './components'
+import {Display, Keyboard} from './components'
+
+const View = styled.View`
+  flex: 1;
+`
 
 export default function App() {
   return (
-    <SafeAreaView>
-      <Display value={'123.456'} />
-    </SafeAreaView>
+    <>
+      <StatusBar barStyle="light-content" />
+      <View>
+        <Display value={'123.456'} />
+        <Keyboard />
+      </View>
+    </>
   )
 }

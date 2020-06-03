@@ -1,0 +1,747 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#303030",
+        "flexBasis": 0,
+        "flexGrow": 2,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        AC
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        +/-
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        %
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        /
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        7
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        8
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        9
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        x
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        4
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        5
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        -
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        1
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        2
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        +
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      big={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 2,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        0
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        .
+      </Text>
+    </View>
+    <View
+      big={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#525252",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 1,
+            "marginLeft": 1,
+            "marginRight": 1,
+            "marginTop": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 45,
+              "fontWeight": "200",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        =
+      </Text>
+    </View>
+  </View>
+</View>
+`;

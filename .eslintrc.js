@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     semi: ['error', 'never'],
     curly: ['error', 'multi-or-nest', 'consistent'],
+    'unicorn/prevent-abbreviations': 'off',
     'unicorn/filename-case': [
       'error',
       {

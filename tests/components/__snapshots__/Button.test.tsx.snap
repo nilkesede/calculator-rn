@@ -2,14 +2,19 @@
 
 exports[`renders correctly 1`] = `
 <View
+  big={false}
   style={
     Array [
       Object {
-        "backgroundColor": "#303030",
+        "backgroundColor": "#525252",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
+        "marginBottom": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "marginTop": 1,
       },
     ]
   }
@@ -21,14 +26,14 @@ exports[`renders correctly 1`] = `
       Array [
         Object {
           "color": "white",
-          "fontSize": 100,
-          "fontWeight": "100",
-          "textAlign": "right",
+          "fontSize": 45,
+          "fontWeight": "200",
+          "textAlign": "center",
         },
       ]
     }
   >
-    123.456
+    OK
   </Text>
 </View>
 `;
