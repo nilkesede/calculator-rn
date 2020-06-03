@@ -1,5 +1,5 @@
 # Calculator
-> macOS like calculator
+> React Native macOS like calculator
 
 ### License
 MIT &copy; [Nil Késede](https://nilkesede.mit-license.org/)
