@@ -3,12 +3,18 @@ import styled from 'styled-components/native'
 
 const Wrapper = styled.View<{
   readonly big?: boolean
+  readonly dark?: boolean
+  readonly primary?: boolean
 }>`
-  background-color: ${props => props.theme.colors.defaultGray};
+  background-color: ${({theme}) => theme.colors.defaultGray}
+  ${props => props.dark && `background-color: ${props.theme.colors.darkGray}`}
+  ${props => props.primary && `background-color: ${props.theme.colors.primaryColor}`}
+
   flex: 1;
+  ${({big}) => big && 'flex: 2;'}
+
   justify-content: center;
   margin: 1px;
-  ${props => props.big && 'flex: 2;'}
 `
 
 const Text = styled.Text`
@@ -20,13 +26,17 @@ const Text = styled.Text`
 
 export default function Button({
   value,
-  big = false
+  big = false,
+  dark = false,
+  primary = false
 }: {
   readonly value: string
   readonly big?: boolean
+  readonly dark?: boolean
+  readonly primary?: boolean
 }) {
   return (
-    <Wrapper big={big}>
+    <Wrapper big={big} dark={dark} primary={primary}>
       <Text adjustsFontSizeToFit numberOfLines={1}>
         {value}
       </Text>

@@ -3,6 +3,8 @@
 exports[`renders correctly 1`] = `
 <View
   big={false}
+  dark={false}
+  primary={false}
   style={
     Array [
       Object {

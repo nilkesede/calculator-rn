@@ -27,10 +27,12 @@ exports[`renders correctly 1`] = `
   >
     <View
       big={false}
+      dark={true}
+      primary={false}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#525252",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -62,10 +64,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={true}
+      primary={false}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#525252",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -97,10 +101,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={true}
+      primary={false}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#525252",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -132,10 +138,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={true}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#fa9f0d",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -180,6 +188,8 @@ exports[`renders correctly 1`] = `
   >
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -215,6 +225,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -250,6 +262,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -285,10 +299,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={true}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#fa9f0d",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -333,6 +349,8 @@ exports[`renders correctly 1`] = `
   >
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -368,6 +386,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -403,6 +423,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -438,10 +460,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={true}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#fa9f0d",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -486,6 +510,8 @@ exports[`renders correctly 1`] = `
   >
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -521,6 +547,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -556,6 +584,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -591,10 +621,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={true}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#fa9f0d",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,
@@ -639,6 +671,8 @@ exports[`renders correctly 1`] = `
   >
     <View
       big={true}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -674,6 +708,8 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={false}
       style={
         Array [
           Object {
@@ -709,10 +745,12 @@ exports[`renders correctly 1`] = `
     </View>
     <View
       big={false}
+      dark={false}
+      primary={true}
       style={
         Array [
           Object {
-            "backgroundColor": "#707070",
+            "backgroundColor": "#fa9f0d",
             "flexBasis": 0,
             "flexGrow": 1,
             "flexShrink": 1,

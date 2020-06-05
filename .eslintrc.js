@@ -1,10 +1,6 @@
 module.exports = {
   root: true,
-  extends: [
-    '@react-native-community',
-    'xo-space/esnext',
-    'plugin:unicorn/recommended'
-  ],
+  extends: ['@react-native-community', 'xo-space/esnext', 'plugin:unicorn/recommended'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'unicorn'],
   rules: {

@@ -12,33 +12,33 @@ export default function Keyboard() {
   return (
     <Wrapper>
       <ButtonsRow>
-        <Button value={'AC'} />
-        <Button value={'+/-'} />
-        <Button value={'%'} />
-        <Button value={'/'} />
+        <Button dark value={'AC'} />
+        <Button dark value={'+/-'} />
+        <Button dark value={'%'} />
+        <Button primary value={'/'} />
       </ButtonsRow>
       <ButtonsRow>
         <Button value={'7'} />
         <Button value={'8'} />
         <Button value={'9'} />
-        <Button value={'x'} />
+        <Button primary value={'x'} />
       </ButtonsRow>
       <ButtonsRow>
         <Button value={'4'} />
         <Button value={'5'} />
         <Button value={'6'} />
-        <Button value={'-'} />
+        <Button primary value={'-'} />
       </ButtonsRow>
       <ButtonsRow>
         <Button value={'1'} />
         <Button value={'2'} />
         <Button value={'3'} />
-        <Button value={'+'} />
+        <Button primary value={'+'} />
       </ButtonsRow>
       <ButtonsRow>
-        <Button value={'0'} big={true} />
+        <Button big value={'0'} />
         <Button value={'.'} />
-        <Button value={'='} />
+        <Button primary value={'='} />
       </ButtonsRow>
     </Wrapper>
   )

@@ -5,7 +5,5 @@ import {ThemeProvider} from 'styled-components/native'
 import {theme} from '../src/config'
 
 export function renderWithTheme(component: ReactElement) {
-  return renderer.create(
-    <ThemeProvider theme={theme}>{component}</ThemeProvider>
-  )
+  return renderer.create(<ThemeProvider theme={theme}>{component}</ThemeProvider>)
 }
