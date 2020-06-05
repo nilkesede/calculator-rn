@@ -1,10 +1,9 @@
-import 'react-native'
 import React from 'react'
-import renderer from 'react-test-renderer'
 
+import {renderWithTheme} from '../utils'
 import {Keyboard} from '../../src/components'
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Keyboard />).toJSON()
+  const tree = renderWithTheme(<Keyboard />).toJSON()
   expect(tree).toMatchSnapshot()
 })

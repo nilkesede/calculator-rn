@@ -1,6 +1,4 @@
-import Button from './Button'
-import ButtonsRow from './ButtonsRow'
-import Display from './Display'
-import Keyboard from './Keyboard'
-
-export {Button, ButtonsRow, Display, Keyboard}
+export {default as Button} from './Button'
+export {default as ButtonsRow} from './ButtonsRow'
+export {default as Display} from './Display'
+export {default as Keyboard} from './Keyboard'

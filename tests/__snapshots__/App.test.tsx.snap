@@ -71,7 +71,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -176,7 +176,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -224,7 +224,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -259,7 +259,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -294,7 +294,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -329,7 +329,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -377,7 +377,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -412,7 +412,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -447,7 +447,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -482,7 +482,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -530,7 +530,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -565,7 +565,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -600,7 +600,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -635,7 +635,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -683,7 +683,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 2,
               "flexShrink": 1,
@@ -718,7 +718,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
@@ -753,7 +753,7 @@ exports[`renders correctly 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#525252",
+              "backgroundColor": "#707070",
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,

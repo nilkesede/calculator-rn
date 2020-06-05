@@ -5,7 +5,7 @@ import ButtonsRow from './ButtonsRow'
 import Button from './Button'
 
 const Wrapper = styled.View`
-  background-color: #303030;
+  background-color: ${props => props.theme.colors.backgroundColor};
   flex: 2;
 `
 export default function Keyboard() {

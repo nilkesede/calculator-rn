@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 const Wrapper = styled.View<{
   readonly big?: boolean
 }>`
-  background-color: #525252;
+  background-color: ${props => props.theme.colors.defaultGray};
   flex: 1;
   justify-content: center;
   margin: 1px;

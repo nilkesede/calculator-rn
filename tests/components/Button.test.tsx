@@ -1,10 +1,9 @@
-import 'react-native'
 import React from 'react'
-import renderer from 'react-test-renderer'
 
+import {renderWithTheme} from '../utils'
 import {Button} from '../../src/components'
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Button value={'OK'} />).toJSON()
+  const tree = renderWithTheme(<Button value={'OK'} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

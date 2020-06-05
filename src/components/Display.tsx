@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/native'
 
 const Wrapper = styled.View`
-  background-color: #303030;
+  background-color: ${props => props.theme.colors.backgroundColor};
   flex: 1;
   justify-content: flex-end;
 `

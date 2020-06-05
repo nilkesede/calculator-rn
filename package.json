@@ -38,11 +38,13 @@
     "eslint-plugin-unicorn": "20.1.0",
     "husky": "4.2.5",
     "jest": "26.0.1",
+    "jest-styled-components": "7.0.2",
     "metro-react-native-babel-preset": "0.59.0",
     "prettier": "2.0.5",
     "react-dom": "16.13.1",
     "react-native-storybook-loader": "1.8.1",
     "react-test-renderer": "16.13.1",
+    "storybook-addon-ondevice-styled-theme": "0.0.1",
     "typescript": "3.9.3"
   },
   "private": true,
