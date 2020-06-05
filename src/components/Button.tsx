@@ -1,11 +1,9 @@
 import React from 'react'
 import styled from 'styled-components/native'
 
-interface WrapperProps {
-  readonly big: boolean
-}
-
-const Wrapper = styled.View<WrapperProps>`
+const Wrapper = styled.View<{
+  readonly big?: boolean
+}>`
   background-color: #525252;
   flex: 1;
   justify-content: center;
@@ -24,8 +22,8 @@ export default function Button({
   value,
   big = false
 }: {
-  value: string
-  big?: boolean
+  readonly value: string
+  readonly big?: boolean
 }) {
   return (
     <Wrapper big={big}>
