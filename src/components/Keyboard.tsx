@@ -8,37 +8,37 @@ const Wrapper = styled.View`
   background-color: ${props => props.theme.colors.backgroundColor};
   flex: 2;
 `
-export default function Keyboard() {
+export default function Keyboard({callback}: {callback: (command: string) => void}) {
   return (
     <Wrapper>
       <ButtonsRow>
-        <Button dark value={'AC'} />
-        <Button dark value={'+/-'} />
-        <Button dark value={'%'} />
-        <Button primary value={'/'} />
+        <Button dark value={'AC'} onPress={callback} />
+        <Button dark value={'+/-'} onPress={callback} />
+        <Button dark value={'%'} onPress={callback} />
+        <Button primary value={'/'} onPress={callback} />
       </ButtonsRow>
       <ButtonsRow>
-        <Button value={'7'} />
-        <Button value={'8'} />
-        <Button value={'9'} />
-        <Button primary value={'x'} />
+        <Button value={'7'} onPress={callback} />
+        <Button value={'8'} onPress={callback} />
+        <Button value={'9'} onPress={callback} />
+        <Button primary value={'x'} onPress={callback} />
       </ButtonsRow>
       <ButtonsRow>
-        <Button value={'4'} />
-        <Button value={'5'} />
-        <Button value={'6'} />
-        <Button primary value={'-'} />
+        <Button value={'4'} onPress={callback} />
+        <Button value={'5'} onPress={callback} />
+        <Button value={'6'} onPress={callback} />
+        <Button primary value={'-'} onPress={callback} />
       </ButtonsRow>
       <ButtonsRow>
-        <Button value={'1'} />
-        <Button value={'2'} />
-        <Button value={'3'} />
-        <Button primary value={'+'} />
+        <Button value={'1'} onPress={callback} />
+        <Button value={'2'} onPress={callback} />
+        <Button value={'3'} onPress={callback} />
+        <Button primary value={'+'} onPress={callback} />
       </ButtonsRow>
       <ButtonsRow>
-        <Button big value={'0'} />
-        <Button value={'.'} />
-        <Button primary value={'='} />
+        <Button big value={'0'} onPress={callback} />
+        <Button value={'.'} onPress={callback} />
+        <Button primary value={'='} onPress={callback} />
       </ButtonsRow>
     </Wrapper>
   )
