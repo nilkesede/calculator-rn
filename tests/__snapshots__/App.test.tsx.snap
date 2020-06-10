@@ -67,20 +67,25 @@ exports[`renders correctly 1`] = `
       }
     >
       <View
-        big={false}
-        dark={true}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#525252",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#525252",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -101,20 +106,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={true}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#525252",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#525252",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -135,20 +145,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={true}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#525252",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#525252",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -169,20 +184,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={true}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#fa9f0d",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#fa9f0d",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -216,20 +236,25 @@ exports[`renders correctly 1`] = `
       }
     >
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -250,20 +275,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -284,20 +314,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -318,20 +353,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={true}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#fa9f0d",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#fa9f0d",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -365,20 +405,25 @@ exports[`renders correctly 1`] = `
       }
     >
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -399,20 +444,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -433,20 +483,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -467,20 +522,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={true}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#fa9f0d",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#fa9f0d",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -514,20 +574,25 @@ exports[`renders correctly 1`] = `
       }
     >
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -548,20 +613,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -582,20 +652,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -616,20 +691,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={true}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#fa9f0d",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#fa9f0d",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -663,20 +743,25 @@ exports[`renders correctly 1`] = `
       }
     >
       <View
-        big={true}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "50%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "50%",
+          }
         }
       >
         <Text
@@ -697,20 +782,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={false}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#707070",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#707070",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
@@ -731,20 +821,25 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        big={false}
-        dark={false}
-        primary={true}
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "backgroundColor": "#fa9f0d",
-              "borderColor": "#303030",
-              "borderStyle": "solid",
-              "borderWidth": 1,
-              "justifyContent": "center",
-              "width": "25%",
-            },
-          ]
+          Object {
+            "backgroundColor": "#fa9f0d",
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "25%",
+          }
         }
       >
         <Text
