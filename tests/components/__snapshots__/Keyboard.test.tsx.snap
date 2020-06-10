@@ -33,14 +33,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#525252",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -70,14 +67,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#525252",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -107,14 +101,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#525252",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -144,14 +135,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#fa9f0d",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -194,14 +182,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -231,14 +216,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -268,14 +250,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -305,14 +284,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#fa9f0d",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -355,14 +331,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -392,14 +365,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -429,14 +399,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -466,14 +433,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#fa9f0d",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -516,14 +480,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -553,14 +514,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -590,14 +548,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -627,14 +582,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#fa9f0d",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -677,14 +629,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 2,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "50%",
           },
         ]
       }
@@ -714,14 +663,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#707070",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
@@ -751,14 +697,11 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "backgroundColor": "#fa9f0d",
-            "flexBasis": 0,
-            "flexGrow": 1,
-            "flexShrink": 1,
+            "borderColor": "#303030",
+            "borderStyle": "solid",
+            "borderWidth": 1,
             "justifyContent": "center",
-            "marginBottom": 1,
-            "marginLeft": 1,
-            "marginRight": 1,
-            "marginTop": 1,
+            "width": "25%",
           },
         ]
       }
