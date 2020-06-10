@@ -1,11 +1,17 @@
 import React from 'react'
 import styled from 'styled-components/native'
 
-const Wrapper = styled.View<{
+interface WrapperProps {
   readonly big?: boolean
   readonly dark?: boolean
   readonly primary?: boolean
-}>`
+}
+
+interface ButtonProps extends WrapperProps {
+  readonly value: string
+}
+
+const Wrapper = styled.TouchableOpacity<WrapperProps>`
   background-color: ${({theme}) => theme.colors.defaultGray}
   justify-content: center;
   width: 25%;
@@ -23,17 +29,7 @@ const Text = styled.Text`
   text-align: center;
 `
 
-export default function Button({
-  value,
-  big = false,
-  dark = false,
-  primary = false
-}: {
-  readonly value: string
-  readonly big?: boolean
-  readonly dark?: boolean
-  readonly primary?: boolean
-}) {
+export default function Button({value, big = false, dark = false, primary = false}: ButtonProps) {
   return (
     <Wrapper big={big} dark={dark} primary={primary}>
       <Text adjustsFontSizeToFit numberOfLines={1}>
