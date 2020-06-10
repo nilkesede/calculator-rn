@@ -11,14 +11,14 @@ const View = styled.View`
 `
 
 export default function App() {
-  const {value, applyCommand} = useProcessor()
+  const {value, execute} = useProcessor()
 
   return (
     <ThemeProvider theme={theme}>
       <StatusBar barStyle="light-content" />
       <View>
         <Display value={value} />
-        <Keyboard callback={applyCommand} />
+        <Keyboard callback={execute} />
       </View>
     </ThemeProvider>
   )

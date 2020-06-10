@@ -1,16 +1,18 @@
 export default class Processor {
   public value = '0'
-  private operations = new Set(['%', '/', 'x', '-', '+', '='])
+  private operations = new Set(['+/-', '%', '/', 'x', '-', '+', '='])
   private buffer = [0, 0]
   private bufferIndex = 0
   private wipeValue = false
   private operation = ''
   private lastCommand = ''
 
-  calculate() {
+  private calculate() {
     switch (this.operation) {
+      case '+/-':
+        return this.buffer[0] * -1
       case '%':
-        return this.buffer[0] % this.buffer[1]
+        return this.buffer[0] / 100
       case '/':
         return this.buffer[0] / this.buffer[1]
       case 'x':
@@ -24,7 +26,7 @@ export default class Processor {
     }
   }
 
-  addDigit(digit: string) {
+  private addDigit(digit: string) {
     const isDot = digit === '.'
     const wipeValue = (this.value === '0' && !isDot) || this.wipeValue
 
@@ -41,10 +43,20 @@ export default class Processor {
     return this.buffer[this.bufferIndex].toString()
   }
 
-  setOperation(operation: string) {
+  private setOperation(operation: string) {
     const isEqualSign = operation === '='
+    const isPercent = operation === '%'
+    const isModulo = operation === '+/-'
 
     this.wipeValue = true
+
+    if (isPercent || isModulo) {
+      this.operation = operation
+      this.buffer[this.bufferIndex] = this.calculate()
+      this.value = this.buffer[this.bufferIndex].toString()
+
+      return
+    }
 
     if (this.bufferIndex === 0 && !isEqualSign) {
       this.operation = operation
@@ -64,7 +76,7 @@ export default class Processor {
     }
   }
 
-  clearAll() {
+  private clearAll() {
     this.value = '0'
     this.buffer = [0, 0]
     this.operation = ''
@@ -72,7 +84,7 @@ export default class Processor {
     this.wipeValue = false
   }
 
-  isReplacingOperation(command: string) {
+  private isReplacingOperation(command: string) {
     return (
       this.operations.has(this.lastCommand) &&
       this.operations.has(command) &&
@@ -81,7 +93,7 @@ export default class Processor {
     )
   }
 
-  applyCommand(command: string) {
+  execute(command: string) {
     if (this.isReplacingOperation(command)) {
       this.operation = command
       return

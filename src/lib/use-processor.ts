@@ -6,13 +6,13 @@ export default function useProcessor() {
   const [processor] = useState(new Processor())
   const [value, setValue] = useState('')
 
-  const applyCommand = useCallback(
+  const execute = useCallback(
     command => {
-      processor.applyCommand(command)
+      processor.execute(command)
       setValue(processor.value)
     },
     [processor]
   )
 
-  return {value, applyCommand}
+  return {value, execute}
 }
