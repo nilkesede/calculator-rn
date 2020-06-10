@@ -7,14 +7,13 @@ const Wrapper = styled.View<{
   readonly primary?: boolean
 }>`
   background-color: ${({theme}) => theme.colors.defaultGray}
+  justify-content: center;
+  width: 25%;
+  border: 1px solid ${props => props.theme.colors.backgroundColor};
+
   ${props => props.dark && `background-color: ${props.theme.colors.darkGray}`}
   ${props => props.primary && `background-color: ${props.theme.colors.primaryColor}`}
-
-  flex: 1;
-  ${({big}) => big && 'flex: 2;'}
-
-  justify-content: center;
-  margin: 1px;
+  ${({big}) => big && 'width: 50%;'}
 `
 
 const Text = styled.Text`
