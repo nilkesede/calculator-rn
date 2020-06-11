@@ -1,6 +1,6 @@
 export default class Processor {
+  readonly operations = new Set(['+/-', '%', '/', 'x', '-', '+', '='])
   public value = '0'
-  private operations = new Set(['+/-', '%', '/', 'x', '-', '+', '='])
   private buffer = [0, 0]
   private bufferIndex = 0
   private wipeValue = false
