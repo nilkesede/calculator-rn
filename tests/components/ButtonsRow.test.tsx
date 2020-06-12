@@ -6,10 +6,10 @@ import {Button, ButtonsRow} from '../../src/components'
 it('renders correctly', () => {
   const tree = renderWithTheme(
     <ButtonsRow>
-      <Button value={'AC'} />
-      <Button value={'+/-'} />
-      <Button value={'%'} />
-      <Button value={'/'} />
+      <Button value={'AC'} onPress={() => {}} />
+      <Button value={'+/-'} onPress={() => {}} />
+      <Button value={'%'} onPress={() => {}} />
+      <Button value={'/'} onPress={() => {}} />
     </ButtonsRow>
   ).toJSON()
   expect(tree).toMatchSnapshot()
