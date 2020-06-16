@@ -9,7 +9,7 @@ interface WrapperProps {
 
 interface ButtonProps extends WrapperProps {
   readonly value: string
-  readonly onPress: (command: string) => void
+  readonly onPress?: (command: string) => void
 }
 
 const Wrapper = styled.TouchableOpacity<WrapperProps>`
@@ -30,7 +30,7 @@ const Text = styled.Text`
   text-align: center;
 `
 
-export default function Button({value, onPress, big = false, dark = false, primary = false}: ButtonProps) {
+export default function Button({value, onPress = () => {}, big = false, dark = false, primary = false}: ButtonProps) {
   return (
     <Wrapper big={big} dark={dark} primary={primary} onPress={() => onPress(value)}>
       <Text adjustsFontSizeToFit numberOfLines={1}>

@@ -1,9 +1,9 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
+import {render} from './utils'
 
 import App from '../src/App'
 
 it('renders correctly', () => {
-  const tree = renderer.create(<App />).toJSON()
+  const tree = render(<App />).toJSON()
   expect(tree).toMatchSnapshot()
 })

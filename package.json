@@ -25,6 +25,7 @@
     "@storybook/addons": "5.3.19",
     "@storybook/react-native": "5.3.19",
     "@storybook/react-native-server": "5.3.19",
+    "@testing-library/react-hooks": "3.3.0",
     "@types/jest": "26.0.0",
     "@types/react-native": "0.62.13",
     "@types/react-test-renderer": "16.9.2",
