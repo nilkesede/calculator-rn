@@ -46,11 +46,11 @@ export default class Processor {
   private setOperation(operation: string) {
     const isEqualSign = operation === '='
     const isPercent = operation === '%'
-    const isModulo = operation === '+/-'
+    const isToggleAbs = operation === '+/-'
 
     this.wipeValue = true
 
-    if (isPercent || isModulo) {
+    if (isPercent || isToggleAbs) {
       this.operation = operation
       this.buffer[this.bufferIndex] = this.calculate()
       this.value = this.buffer[this.bufferIndex].toString()
@@ -108,6 +108,8 @@ export default class Processor {
       this.setOperation(command)
       return
     }
+
+    if (Number.isNaN(Number(command))) throw new Error('param must be a valid command or a number')
 
     this.lastCommand = command
     this.addDigit(command)

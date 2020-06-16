@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react'
 import renderer from 'react-test-renderer'
-import {renderHook} from '@testing-library/react-hooks'
+import {renderHook, act} from '@testing-library/react-hooks'
 import {ThemeProvider} from 'styled-components/native'
 
 import {theme} from '../src/config'
@@ -11,4 +11,4 @@ export function renderWithTheme(component: ReactElement) {
 
 export const render = renderer.create
 
-export {renderHook}
+export {renderHook, act}
